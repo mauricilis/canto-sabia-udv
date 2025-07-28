@@ -3,8 +3,8 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import bookCover from "@/assets/book-cover.jpg";
-import mestreFlorencio from "@/assets/mestre-florencio.jpg";
+import bookCover from "/lovable-uploads/98f2d1b4-73c9-4454-a19c-73a467c1ffe0.png";
+import mestreFlorencio from "/lovable-uploads/a5b6c8fc-0790-4df0-ad70-4d87ea25f2b0.png";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const Index = () => {
