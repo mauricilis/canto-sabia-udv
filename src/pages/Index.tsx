@@ -248,6 +248,25 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Realization Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold text-forest mb-8">Realização:</h2>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-4xl mx-auto">
+            <img 
+              src="/lovable-uploads/439e2ddd-861d-483b-8990-9f098c4f8193.png" 
+              alt="Ministério da Cultura - Governo Federal - Brasil" 
+              className="h-20 md:h-24"
+            />
+            <img 
+              src="/lovable-uploads/4bd67657-8ddd-4b8e-9a9f-7f42a7d95fea.png" 
+              alt="Lei Rouanet - Fundo Nacional da Cultura" 
+              className="h-20 md:h-24"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 bg-earth text-white">
         <div className="container mx-auto px-4 text-center">
