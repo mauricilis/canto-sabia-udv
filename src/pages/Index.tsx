@@ -166,79 +166,39 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-forest mb-16">
-            O que você vai encontrar no livro
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <Card className="shadow-lg border-0 bg-gradient-to-br from-white to-muted/30">
-              <CardContent className="p-8">
-                <div className="text-6xl mb-6 text-center">📖</div>
-                <h3 className="text-2xl font-bold text-forest mb-4 text-center">Formato Impresso (capa dura)</h3>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li>• Mais de 300 páginas de histórias, imagens e registros emocionantes</li>
-                  <li>• Excelente acabamento, ideal para guardar e presentear</li>
-                  <li>• Papel de qualidade para uma leitura confortável</li>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card className="shadow-lg border-0 bg-gradient-to-br from-white to-muted/30">
-              <CardContent className="p-8">
-                <div className="text-6xl mb-6 text-center">🎧</div>
-                <h3 className="text-2xl font-bold text-forest mb-4 text-center">Formato Audiobook</h3>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li>• Narração profissional com entonação sensível</li>
-                  <li>• Escute no seu tempo: em casa, na estrada ou na floresta</li>
-                  <li>• Disponível para download ou streaming</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 bg-gradient-to-b from-muted/30 to-background">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-forest mb-16">O que dizem sobre o livro</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <TestimonialCard
-              quote="Revivi cada momento ao lado do M. Florêncio. Um presente para a alma."
-              author="M. José Silva"
-            />
-            <TestimonialCard
-              quote="Ouvir o audiobook foi como sentar à beira do fogão e escutar o Mestre contar histórias."
-              author="C. Maria da Luz"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Purchase Section */}
-      <section className="py-20 bg-gradient-to-r from-golden/20 to-golden/10">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-forest mb-16">
             Escolha sua versão e receba onde estiver
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8 text-center">
                 <div className="text-6xl mb-6">📖</div>
-                <h3 className="text-2xl font-bold text-forest mb-4">Livro Impresso</h3>
-                <ul className="space-y-2 mb-6 text-muted-foreground">
+                <h3 className="text-2xl font-bold text-forest mb-6">Formato Impresso (capa dura)</h3>
+                <ul className="space-y-3 text-muted-foreground mb-8 text-left">
+                  <li>• Mais de 300 páginas de histórias, imagens e registros emocionantes</li>
+                  <li>• Excelente acabamento, ideal para guardar e presentear</li>
+                  <li>• Papel de qualidade para uma leitura confortável</li>
                   <li>• Frete para todo o Brasil</li>
                   <li>• R$ 89,90 ou em até 3x sem juros</li>
                 </ul>
-                <BookCTA showPrices={false} />
+                <div className="flex justify-center">
+                  <BookCTA showPrices={false} onlyPrint={true} />
+                </div>
               </CardContent>
             </Card>
             <Card className="shadow-xl border-0 bg-white">
               <CardContent className="p-8 text-center">
                 <div className="text-6xl mb-6">🎧</div>
-                <h3 className="text-2xl font-bold text-forest mb-4">Audiobook Digital</h3>
-                <ul className="space-y-2 mb-6 text-muted-foreground">
+                <h3 className="text-2xl font-bold text-forest mb-6">Formato Audiobook</h3>
+                <ul className="space-y-3 text-muted-foreground mb-8 text-left">
+                  <li>• Narração profissional com entonação sensível</li>
+                  <li>• Escute no seu tempo: em casa, na estrada ou na floresta</li>
+                  <li>• Disponibilizado pela Hotmart para acesso via navegador ou app</li>
                   <li>• Acesso imediato após a compra</li>
                   <li>• R$ 49,90</li>
                 </ul>
-                <BookCTA showPrices={false} />
+                <div className="flex justify-center">
+                  <BookCTA showPrices={false} onlyAudio={true} />
+                </div>
               </CardContent>
             </Card>
           </div>
