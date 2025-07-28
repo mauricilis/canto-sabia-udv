@@ -3,7 +3,7 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import { FeatureCard } from "@/components/FeatureCard";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import bookCover from "/lovable-uploads/98f2d1b4-73c9-4454-a19c-73a467c1ffe0.png";
+import bookCover from "/lovable-uploads/a066a471-a501-4429-a8d8-fefb24a9a103.png";
 import mestreFlorencio from "/lovable-uploads/a5b6c8fc-0790-4df0-ad70-4d87ea25f2b0.png";
 import heroBackground from "@/assets/hero-background.jpg";
 
@@ -233,13 +233,28 @@ const Index = () => {
       {/* Author Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl font-bold text-forest">Sobre o Autor</h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Edson Lodi é escritor e membro da UDV, com profundo respeito pela história da União. 
-              Neste trabalho, ele reconstrói com sensibilidade e fidelidade o legado de um homem que foi 
-              exemplo de vida espiritual e amor fraterno.
-            </p>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-forest text-center mb-12">Sobre o Autor</h2>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="md:w-1/3">
+                <img 
+                  src="/lovable-uploads/8a24deac-c056-4752-9fe1-090ed5ecd6f0.png" 
+                  alt="Edson Lodi - Autor" 
+                  className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
+                />
+              </div>
+              <div className="md:w-2/3 space-y-4">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Edson Lodi é escritor e membro da UDV, com profundo respeito pela história da União. 
+                  Neste trabalho, ele reconstrói com sensibilidade e fidelidade o legado de um homem que foi 
+                  exemplo de vida espiritual e amor fraterno.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Com uma trajetória dedicada à preservação da memória e dos ensinamentos da UDV, 
+                  Edson traz em "O Canto do Sabiá" uma narrativa tocante sobre um dos discípulos mais queridos de Mestre Gabriel.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
