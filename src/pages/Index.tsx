@@ -1,6 +1,7 @@
 import { BookCTA } from "@/components/BookCTA";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { FeatureCard } from "@/components/FeatureCard";
+import { Bird } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import bookCover from "/lovable-uploads/a066a471-a501-4429-a8d8-fefb24a9a103.png";
@@ -132,20 +133,29 @@ const Index = () => {
       {/* Target Audience */}
       <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center text-forest mb-16">Para quem é este livro</h2>
-            <div className="space-y-6 text-lg">
-              <div className="flex items-start gap-4">
-                <span className="text-golden text-2xl">✅</span>
-                <p>Quem deseja conhecer de perto a história de um dos primeiros mestres da UDV</p>
+            <div className="flex flex-col lg:flex-row items-center gap-12">
+              <div className="lg:w-1/2">
+                <img 
+                  src="/lovable-uploads/93a10b04-4ab7-42f0-a0d4-87c4557046b7.png" 
+                  alt="Mestre Florêncio em contemplação" 
+                  className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+                />
               </div>
-              <div className="flex items-start gap-4">
-                <span className="text-golden text-2xl">✅</span>
-                <p>Quem sente saudade de ouvir as palavras simples e profundas de M. Florêncio</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <span className="text-golden text-2xl">✅</span>
-                <p>Quem valoriza o legado dos pioneiros da União do Vegetal</p>
+              <div className="lg:w-1/2 space-y-6 text-lg">
+                <div className="flex items-start gap-4">
+                  <Bird className="text-golden flex-shrink-0 mt-1" size={24} />
+                  <p>Quem deseja conhecer de perto a história de um dos primeiros mestres da UDV</p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <Bird className="text-golden flex-shrink-0 mt-1" size={24} />
+                  <p>Quem sente saudade de ouvir as palavras simples e profundas de M. Florêncio</p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <Bird className="text-golden flex-shrink-0 mt-1" size={24} />
+                  <p>Quem valoriza o legado dos pioneiros da União do Vegetal</p>
+                </div>
               </div>
             </div>
           </div>
