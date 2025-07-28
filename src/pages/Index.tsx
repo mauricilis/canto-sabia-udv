@@ -15,7 +15,7 @@ const Index = () => {
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-fixed"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-forest/80 to-forest/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/80 to-yellow-700/60"></div>
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
           <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
             <div className="lg:w-1/2 space-y-8">
@@ -45,17 +45,28 @@ const Index = () => {
       {/* Story Section */}
       <section className="py-20 bg-gradient-to-b from-background to-muted">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-8">
-            <h2 className="text-4xl font-bold text-forest">Uma História que Vive no Coração da UDV</h2>
-            <div className="text-lg leading-relaxed text-muted-foreground space-y-6">
-              <p>
-                Mestre Florêncio não foi apenas um discípulo de Mestre Gabriel. Ele foi guardião da palavra, 
-                exemplo de humildade e ponte viva entre a floresta, a fé e os ensinos da União do Vegetal.
-              </p>
-              <p>
-                Neste livro, Edson Lodi resgata momentos marcantes, desde os primeiros encontros com o Mestre 
-                até seus últimos dias, deixando registrada uma herança de amor, força e lealdade.
-              </p>
+          <div className="max-w-6xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center gap-12">
+              <div className="lg:w-1/2">
+                <img 
+                  src="/lovable-uploads/f435d26f-183f-4fb1-97b7-099e7c813792.png" 
+                  alt="Mestre Florêncio" 
+                  className="w-full max-w-md mx-auto rounded-lg shadow-xl"
+                />
+              </div>
+              <div className="lg:w-1/2 space-y-8">
+                <h2 className="text-4xl font-bold text-forest">Uma História que Vive no Coração da UDV</h2>
+                <div className="text-lg leading-relaxed text-muted-foreground space-y-6">
+                  <p>
+                    Mestre Florêncio não foi apenas um discípulo de Mestre Gabriel. Ele foi guardião da palavra, 
+                    exemplo de humildade e ponte viva entre a floresta, a fé e os ensinos da União do Vegetal.
+                  </p>
+                  <p>
+                    Neste livro, Edson Lodi resgata momentos marcantes, desde os primeiros encontros com o Mestre 
+                    até seus últimos dias, deixando registrada uma herança de amor, força e lealdade.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -69,32 +80,32 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <FeatureCard
-              icon="📚"
+              icon="BookOpen"
               title="Biografia com riqueza de detalhes"
               description="Dos desafios da infância até seu papel como Conselheiro e referência espiritual."
             />
             <FeatureCard
-              icon="🌿"
+              icon="Leaf"
               title="Conexão com a origem da UDV"
               description="M. Florêncio foi formado diretamente por Mestre Gabriel e dedicou sua vida à expansão da União."
             />
             <FeatureCard
-              icon="🗣️"
+              icon="MessageCircle"
               title="Relatos emocionantes e verdadeiros"
               description="Histórias contadas por familiares, amigos e discípulos que viveram ao seu lado."
             />
             <FeatureCard
-              icon="❤️"
+              icon="Heart"
               title="Um legado de amor e fidelidade"
               description="M. Florêncio escolheu partir com sua memória intacta — para nunca esquecer seu Mestre."
             />
             <FeatureCard
-              icon="🎧"
+              icon="Headphones"
               title="Versão em audiobook com narração envolvente"
               description="Ideal para quem deseja ouvir os ensinamentos em qualquer momento do dia."
             />
             <FeatureCard
-              icon="🕊️"
+              icon="Bird"
               title="Uma herança espiritual"
               description="Palavras que tocam a alma e fortalecem a fé na jornada espiritual."
             />

@@ -1,19 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { ReactNode } from "react";
+import { LucideIcon } from "lucide-react";
+import * as Icons from "lucide-react";
 
 interface FeatureCardProps {
-  icon: ReactNode;
+  icon: keyof typeof Icons;
   title: string;
   description: string;
-  className?: string;
 }
 
-export const FeatureCard = ({ icon, title, description, className = "" }: FeatureCardProps) => {
+export const FeatureCard = ({ icon, title, description }: FeatureCardProps) => {
+  const IconComponent = Icons[icon] as LucideIcon;
+  
   return (
-    <Card className={`bg-white/90 backdrop-blur-sm shadow-md hover:shadow-lg transition-all duration-300 border-0 ${className}`}>
-      <CardContent className="p-6 text-center">
-        <div className="text-golden text-4xl mb-4 flex justify-center">{icon}</div>
-        <h3 className="text-xl font-semibold text-forest mb-3">{title}</h3>
+    <Card className="border-0 shadow-lg bg-white/80 backdrop-blur-sm hover:shadow-xl transition-shadow duration-300">
+      <CardContent className="p-8 text-center space-y-4">
+        <div className="flex justify-center">
+          <IconComponent size={48} className="text-forest" />
+        </div>
+        <h3 className="text-xl font-semibold text-forest">{title}</h3>
         <p className="text-muted-foreground leading-relaxed">{description}</p>
       </CardContent>
     </Card>
