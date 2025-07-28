@@ -275,7 +275,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/baa4af34-d29a-413a-aef5-0abec1f14667.png" 
               alt="Capella" 
-              className="h-12 md:h-16"
+              className="h-8 md:h-10"
             />
             <img 
               src="/lovable-uploads/fba3158c-9afa-4ffd-ba15-7e4a27b491b5.png" 
@@ -285,7 +285,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/afb2c83a-9b09-48e0-a5f9-ecfe18849e70.png" 
               alt="Jutica" 
-              className="h-12 md:h-16"
+              className="h-8 md:h-10"
             />
             <img 
               src="/lovable-uploads/37f42f56-e1d9-4fc1-8070-dd302d1b0a92.png" 
@@ -300,7 +300,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/b8e98eb3-c427-4678-8030-897ba4122c5b.png" 
               alt="Supernova" 
-              className="h-12 md:h-16"
+              className="h-8 md:h-10"
             />
           </div>
         </div>
