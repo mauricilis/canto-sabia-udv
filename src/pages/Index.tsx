@@ -253,7 +253,7 @@ const Index = () => {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/3">
                 <img 
-                  src="/lovable-uploads/8a24deac-c056-4752-9fe1-090ed5ecd6f0.png" 
+                  src="/lovable-uploads/d9389d0a-da74-4271-a934-b0240f7de142.png" 
                   alt="Edson Lodi - Autor" 
                   className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 />
