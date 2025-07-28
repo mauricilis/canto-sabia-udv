@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import bookCover from "/lovable-uploads/a066a471-a501-4429-a8d8-fefb24a9a103.png";
 import mestreFlorencio from "/lovable-uploads/a5b6c8fc-0790-4df0-ad70-4d87ea25f2b0.png";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "/lovable-uploads/61ce68d9-23be-418c-b6f0-4b3d0b5f8d39.png";
 
 const Index = () => {
   return (
@@ -23,24 +23,18 @@ const Index = () => {
                 O Canto do <span className="text-golden">Sabiá</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl font-light opacity-90">
-                A história viva de um dos maiores discípulos de Mestre Gabriel
+                A história de Mestre Florêncio
               </h2>
               <p className="text-xl opacity-80 leading-relaxed">
                 A biografia emocionante de Mestre Florêncio, agora disponível nos formatos livro impresso e audiobook.
               </p>
               <BookCTA className="mt-8" />
             </div>
-            <div className="lg:w-1/2 flex justify-center gap-8">
+            <div className="lg:w-1/2 flex justify-center">
               <img 
                 src={bookCover} 
                 alt="Capa do livro O Canto do Sabiá" 
                 className="w-64 lg:w-80 shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300"
-                style={{ filter: 'drop-shadow(0 25px 50px rgba(0,0,0,0.3))' }}
-              />
-              <img 
-                src={mestreFlorencio} 
-                alt="Mestre Florêncio" 
-                className="w-48 lg:w-64 h-64 lg:h-80 object-cover shadow-xl rounded-lg transform hover:scale-105 transition-transform duration-300"
                 style={{ filter: 'drop-shadow(0 25px 50px rgba(0,0,0,0.3))' }}
               />
             </div>
