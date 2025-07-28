@@ -267,6 +267,45 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Sponsors Section */}
+      <section className="py-16 bg-white border-t border-muted/20">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold text-forest mb-8">Patrocinadores:</h2>
+          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
+            <img 
+              src="/lovable-uploads/baa4af34-d29a-413a-aef5-0abec1f14667.png" 
+              alt="Capella" 
+              className="h-12 md:h-16"
+            />
+            <img 
+              src="/lovable-uploads/fba3158c-9afa-4ffd-ba15-7e4a27b491b5.png" 
+              alt="Casa Cobi" 
+              className="h-12 md:h-16"
+            />
+            <img 
+              src="/lovable-uploads/afb2c83a-9b09-48e0-a5f9-ecfe18849e70.png" 
+              alt="Jutica" 
+              className="h-12 md:h-16"
+            />
+            <img 
+              src="/lovable-uploads/37f42f56-e1d9-4fc1-8070-dd302d1b0a92.png" 
+              alt="Dr Parfum" 
+              className="h-12 md:h-16"
+            />
+            <img 
+              src="/lovable-uploads/00ee5aad-11c8-4865-be8b-724e7bc91ae0.png" 
+              alt="Mancini" 
+              className="h-12 md:h-16"
+            />
+            <img 
+              src="/lovable-uploads/b8e98eb3-c427-4678-8030-897ba4122c5b.png" 
+              alt="Supernova" 
+              className="h-12 md:h-16"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 bg-earth text-white">
         <div className="container mx-auto px-4 text-center">
