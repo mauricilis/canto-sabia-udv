@@ -196,7 +196,7 @@ const Index = () => {
                 </div>
                 <ul className="space-y-3 text-muted-foreground mb-8 text-left">
                   <li>• Narração profissional com entonação sensível</li>
-                  <li>• Escute no seu tempo: em casa, na estrada ou na floresta</li>
+                  <li>• Ideal para quem deseja conhecer a história de M. Florêncio em qualquer momento do dia.</li>
                   <li>• Disponibilizado pela Hotmart para acesso via navegador ou app</li>
                   <li>• Acesso imediato após a compra</li>
                 </ul>
