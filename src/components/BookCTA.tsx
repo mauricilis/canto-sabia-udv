@@ -60,7 +60,7 @@ export const BookCTA = ({ showPrices = false, className = "", onlyPrint = false,
           variant="ctaSecondary" 
           size="lg" 
           className="text-lg px-8 py-4"
-          onClick={() => window.open('https://go.hotmart.com/B101075266E', '_blank')}
+          onClick={() => window.open('https://pay.hotmart.com/B101075266E?bid=1753759237231', '_blank')}
         >
           <Headphones className="w-5 h-5" />
           {showPrices ? "Audiobook - R$ 49,90" : "🎧 Quero o Audiobook"}
@@ -95,7 +95,7 @@ export const BookCTA = ({ showPrices = false, className = "", onlyPrint = false,
         variant="ctaSecondary" 
         size="lg" 
         className="text-lg px-8 py-4"
-        onClick={() => window.open('https://go.hotmart.com/B101075266E', '_blank')}
+        onClick={() => window.open('https://pay.hotmart.com/B101075266E?bid=1753759237231', '_blank')}
       >
         <Headphones className="w-5 h-5" />
         {showPrices ? "Audiobook - R$ 49,90" : "🎧 Quero o Audiobook"}
