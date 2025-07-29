@@ -222,17 +222,17 @@ const Index = () => {
                   className="w-full max-w-sm mx-auto rounded-lg shadow-lg"
                 />
               </div>
-              <div className="md:w-2/3 space-y-4">
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Edson Lodi é escritor e membro da UDV, com profundo respeito pela história da União. 
-                  Neste trabalho, ele reconstrói com sensibilidade e fidelidade o legado de um homem que foi 
-                  exemplo de vida espiritual e amor fraterno.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Com uma trajetória dedicada à preservação da memória e dos ensinamentos da UDV, 
-                  Edson traz em "O Canto do Sabiá" uma narrativa tocante sobre um dos discípulos mais queridos de Mestre Gabriel.
-                </p>
-              </div>
+               <div className="md:w-2/3 space-y-4">
+                 <p className="text-lg text-muted-foreground leading-relaxed">
+                   Edson Lodi é escritor, pesquisador e discípulo da União do Vegetal desde a década de 1970. Ao longo de décadas, conviveu de perto com Mestre Florêncio e sua família, sendo testemunha de muitos dos momentos que agora narra com sensibilidade, respeito e profundidade.
+                 </p>
+                 <p className="text-lg text-muted-foreground leading-relaxed">
+                   Com um olhar atento à alma da floresta, ao valor da memória e à essência dos ensinos do Mestre Gabriel, Edson mergulhou em dezenas de entrevistas, relatos e documentos para reconstruir esta trajetória ímpar. Seu compromisso foi claro desde o início: registrar, com o coração e a verdade possível, a vida de um homem simples e grandioso, cuja história ecoa como um canto de sabiá na alma da irmandade.
+                 </p>
+                 <p className="text-lg text-muted-foreground leading-relaxed">
+                   Além de sua vivência pessoal com Mestre Florêncio desde 1976, Edson também se dedicou a pesquisas sobre o contexto histórico e cultural do Nordeste e da Amazônia, ampliando o olhar sobre as raízes sociais e espirituais que moldaram a vida deste Mestre querido.
+                 </p>
+               </div>
             </div>
           </div>
         </div>
