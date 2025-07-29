@@ -72,14 +72,10 @@ export const BookCTA = ({ showPrices = false, className = "", onlyPrint = false,
 
   if (isHero) {
     return (
-      <div className={`flex flex-col sm:flex-row gap-4 justify-center ${className}`}>
+      <div className={`flex justify-center ${className}`}>
         <Button variant="cta" size="lg" className="text-lg px-8 py-4" onClick={scrollToFormats}>
           <Book className="w-5 h-5" />
-          📖 Conhecer o Livro
-        </Button>
-        <Button variant="ctaSecondary" size="lg" className="text-lg px-8 py-4" onClick={scrollToFormats}>
-          <Headphones className="w-5 h-5" />
-          🎧 Conhecer o Livro
+          📖 Conheça o Livro
         </Button>
       </div>
     );
