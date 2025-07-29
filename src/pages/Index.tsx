@@ -17,8 +17,8 @@ const Index = () => {
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-amber-900/80 to-yellow-700/60"></div>
-        <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
+        <div className="relative z-10 container mx-auto px-4 text-center text-white pt-16 md:pt-0">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 max-w-6xl mx-auto overflow-hidden">
             <div className="lg:w-1/2 space-y-8">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 O Canto do <span className="text-golden">Sabiá</span>
