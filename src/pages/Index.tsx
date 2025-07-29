@@ -312,8 +312,15 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 bg-earth text-white">
-        <div className="container mx-auto px-4 text-center">
-          <p className="opacity-80">© 2024 O Canto do Sabiá - Todos os direitos reservados</p>
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="opacity-80 mb-4 md:mb-0">© 2024 O Canto do Sabiá - Todos os direitos reservados</p>
+            <img 
+              src="/lovable-uploads/791e73cc-4948-4a76-891e-3051461c27e4.png" 
+              alt="Prosperar" 
+              className="h-8 opacity-80"
+            />
+          </div>
         </div>
       </footer>
     </div>
