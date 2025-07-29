@@ -29,7 +29,7 @@ const Index = () => {
               <p className="text-xl opacity-80 leading-relaxed">
                 A biografia emocionante de Mestre Florêncio, agora disponível nos formatos livro impresso e audiobook.
               </p>
-              <BookCTA className="mt-8" />
+              <BookCTA className="mt-8" isHero={true} />
             </div>
             <div className="lg:w-1/2 flex justify-center">
               <img 
@@ -163,7 +163,7 @@ const Index = () => {
       </section>
 
       {/* Book Formats */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white" data-section="book-formats">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center text-forest mb-16">
             Escolha sua versão e receba onde estiver
