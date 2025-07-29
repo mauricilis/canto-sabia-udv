@@ -174,13 +174,13 @@ const Index = () => {
                 <div className="text-6xl mb-6">📖</div>
                 <h3 className="text-2xl font-bold text-forest mb-4">Formato Impresso (capa dura)</h3>
                 <div className="text-lg font-semibold text-golden mb-6 p-3 bg-golden/10 rounded-lg">
-                  Valor promocional de lançamento: De R$95 por R$53 à vista.
+                  Valor promocional de lançamento: R$53 à vista
                 </div>
                 <ul className="space-y-3 text-muted-foreground mb-8 text-left">
                   <li>• Fotos e registros emocionantes</li>
                   <li>• Excelente acabamento, ideal para guardar e presentear</li>
                   <li>• Papel de qualidade para uma leitura confortável</li>
-                  <li>• Frete para todo o Brasil</li>
+                  <li>• Consulte valores de frete para todo o Brasil</li>
                 </ul>
                 <div className="flex justify-center">
                   <BookCTA showPrices={false} onlyPrint={true} />
