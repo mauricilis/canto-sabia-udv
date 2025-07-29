@@ -11,8 +11,7 @@ interface BookCTAProps {
 
 export const BookCTA = ({ showPrices = false, className = "", onlyPrint = false, onlyAudio = false, isHero = false }: BookCTAProps) => {
   const scrollToFormats = () => {
-    const formatsSection = document.querySelector('section:has(h2:contains("Escolha sua versão"))') || 
-                          document.querySelector('[data-section="book-formats"]');
+    const formatsSection = document.querySelector('[data-section="book-formats"]');
     if (formatsSection) {
       formatsSection.scrollIntoView({ behavior: 'smooth' });
     }
