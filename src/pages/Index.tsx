@@ -195,6 +195,9 @@ const Index = () => {
                   Valor promocional de lançamento: R$40 à vista
                 </div>
                 <ul className="space-y-3 text-muted-foreground mb-8 text-left">
+                  <li>• 12 capítulos, 55 áudios, com aproximadamente 8h de conteúdo total</li>
+                  <li>• Idioma em português</li>
+                  <li>• Acesso vitalício</li>
                   <li>• Narração profissional com entonação sensível</li>
                   <li>• Ideal para quem deseja conhecer a história de M. Florêncio em qualquer momento do dia.</li>
                   <li>• Disponibilizado pela Hotmart para acesso via navegador ou app</li>
