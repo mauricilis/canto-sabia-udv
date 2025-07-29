@@ -174,11 +174,11 @@ const Index = () => {
                 <div className="text-6xl mb-6">📖</div>
                 <h3 className="text-2xl font-bold text-forest mb-6">Formato Impresso (capa dura)</h3>
                 <ul className="space-y-3 text-muted-foreground mb-8 text-left">
-                  <li>• Mais de 300 páginas de histórias, imagens e registros emocionantes</li>
+                  <li>• Fotos e registros emocionantes</li>
                   <li>• Excelente acabamento, ideal para guardar e presentear</li>
                   <li>• Papel de qualidade para uma leitura confortável</li>
                   <li>• Frete para todo o Brasil</li>
-                  <li>• R$ 89,90 ou em até 3x sem juros</li>
+                  <li>• De R$95 por R$53 à vista, sendo este um valor especial de lançamento</li>
                 </ul>
                 <div className="flex justify-center">
                   <BookCTA showPrices={false} onlyPrint={true} />
@@ -194,7 +194,7 @@ const Index = () => {
                   <li>• Escute no seu tempo: em casa, na estrada ou na floresta</li>
                   <li>• Disponibilizado pela Hotmart para acesso via navegador ou app</li>
                   <li>• Acesso imediato após a compra</li>
-                  <li>• R$ 49,90</li>
+                  <li>• Valor promocional de lançamento: R$40,00 à vista ou parcelado com juros em até 12x no cartão</li>
                 </ul>
                 <div className="flex justify-center">
                   <BookCTA showPrices={false} onlyAudio={true} />
