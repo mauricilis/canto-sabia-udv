@@ -47,7 +47,6 @@ const Index = () => {
       <section className="py-20 bg-gradient-to-b from-muted to-background">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-forest mb-8">Conheça a História</h2>
             <div className="relative w-full">
               <div className="aspect-video w-full rounded-lg overflow-hidden shadow-2xl">
                 <iframe
